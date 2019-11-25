@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingManagement.Domain.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainingManagement.Domain", "TrainingManagement.Domain\TrainingManagement.Domain.csproj", "{14BA5581-DD3B-4CD2-8A29-27259F723999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Specs", "TicketManagement.Specs\TicketManagement.Specs.csproj", "{98D074A0-274F-4A48-A6BC-1839C3D1546A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketManagement.Specs", "TicketManagement.Specs\TicketManagement.Specs.csproj", "{98D074A0-274F-4A48-A6BC-1839C3D1546A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{D6BF5031-6D38-4A6F-802F-B8F11D75C7CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{98D074A0-274F-4A48-A6BC-1839C3D1546A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D074A0-274F-4A48-A6BC-1839C3D1546A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D074A0-274F-4A48-A6BC-1839C3D1546A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BF5031-6D38-4A6F-802F-B8F11D75C7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BF5031-6D38-4A6F-802F-B8F11D75C7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BF5031-6D38-4A6F-802F-B8F11D75C7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BF5031-6D38-4A6F-802F-B8F11D75C7CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
