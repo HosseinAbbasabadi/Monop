@@ -11,6 +11,9 @@ namespace TrainingManagement.Domain
 
         public Ticket(long id, string title, string message)
         {
+            if (string.IsNullOrEmpty(title))
+                throw new Exception();
+
             Id = id;
             Title = title;
             Message = message;

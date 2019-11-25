@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace TrainingManagement.Domain.Tests
@@ -20,5 +21,22 @@ namespace TrainingManagement.Domain.Tests
             Assert.Equal(title, ticket.Title);
             Assert.Equal(message, ticket.Message);
         }
+
+
+        [Fact]
+        public void Constructor_Should_Throw_Exception_When_Title_Is_Null()
+        {
+            //Arrange
+            const long id = 1;
+            const string title = "";
+            const string message = "some message";
+
+            //Act
+            Action constructor = () => new Ticket(id, title, message);
+
+            //Assert
+            Assert.Throws<Exception>(constructor);
+        }
+
     }
 }
