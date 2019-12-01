@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>1.0.7</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nhibernate" Version="5.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Core\Framework.Core.csproj" />
+    <ProjectReference Include="..\Framework.Domain\Framework.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

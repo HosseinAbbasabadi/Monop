@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="castle.windsor" Version="5.0.1" />
+    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Application\Framework.Application.csproj" />
+    <ProjectReference Include="..\Framework.Testing.Hosting\Framework.Testing.Hosting.csproj" />
+    <ProjectReference Include="..\TicketManagement.Application\TicketManagement.Application.csproj" />
+    <ProjectReference Include="..\TicketManagement.Domain\TicketManagement.Domain.csproj" />
+    <ProjectReference Include="..\TicketManagement.Infrastructure.Persisrence\TicketManagement.Infrastructure.Persisrence.csproj" />
+  </ItemGroup>
+
+</Project>

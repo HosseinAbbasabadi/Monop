@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Castle\Framework.Castle.csproj" />
+    <ProjectReference Include="..\TicketManagement.Application.Contracts\TicketManagement.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TicketManagement.Infrastructure.Configuration\TicketManagement.Infrastructure.Configuration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\..\..\..\..\..\Users\Hossein\.nuget\packages\castle.windsor\5.0.1\lib\netstandard1.6\Castle.Windsor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

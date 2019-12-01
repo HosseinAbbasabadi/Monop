@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Framework.Castle</AssemblyName>
+    <RootNamespace>Framework.Castle</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="castle.windsor" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Application\Framework.Application.csproj" />
+    <ProjectReference Include="..\Framework.Configuration\Framework.Configuration.csproj" />
+    <ProjectReference Include="..\Framework.Identity\Framework.Identity.csproj" />
+    <ProjectReference Include="..\Framework.Testing.Hosting\Framework.Testing.Hosting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\Dlls\castle.core\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor">
+      <HintPath>..\Dlls\castle.windsor\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http">
+      <HintPath>C:\Users\Abbasabadi\.nuget\packages\microsoft.aspnetcore.http\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+      <HintPath>C:\Users\Abbasabadi\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

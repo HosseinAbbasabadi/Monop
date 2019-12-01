@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Domain\Framework.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TicketAgg\Exceptions\" />
+  </ItemGroup>
+
+</Project>
