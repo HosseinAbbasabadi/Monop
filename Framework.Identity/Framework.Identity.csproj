@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="microsoft.aspnetcore.http" Version="2.1.1" />
+    <PackageReference Include="microsoft.aspnetcore.http" Version="2.1.22" />
   </ItemGroup>
 
 </Project>
